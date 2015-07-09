@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "strict": 0,
+    "quotes": [2, "single"],
+    "no-unused-vars": 2,
+    "no-underscore-dangle": 2,
+    "curly": 2,
+    "smells/no-switch": 1,
+    "smells/no-complex-switch-case": 1,
+    "smells/no-setinterval": 1,
+    "smells/no-this-assign": 1,
+    "smells/no-complex-string-concat": 1
+  },
+  "globals": {
+    "describe": false,
+    "it": false
+  },
+  "plugins": [
+    "smells"
+  ]
+}
